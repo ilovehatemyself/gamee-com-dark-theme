@@ -1,0 +1,262 @@
+@-moz-document domain("prizes.gamee.com") {
+    /* Insert code here... */
+}
+ :root { /* edit this code below */
+    --s-background: #0f0f0f;
+    --s-border-all: 2px solid #989696;
+    --s-h1-color: #959595;
+    --s-h2-color: #515151;
+    --s-em-color: #5e5e5e;
+    --s-tab__link--active-color: #848383;
+    --s-button__content-color: #7d7d7d;
+    --s-user-status-bar-color: #ababab;
+    --s-navbar-bottom: 1px solid #222;
+    --s-questslot-box-shadow: 0 8px 16px rgba(96, 113, 136, .2),0 0 16px rgba(142, 148, 155, .1);
+    --s-dashbord-sidebar-border: 1px solid #fff;
+    --s-lotto-card-background: #060606;
+    --s-lotto-card__info-container-h1: #f9d60e;
+    --s-lotto-card__info-container-h2: #c87a10;
+    --s-lotto-card__info-container-h4: #585858;
+    --s-tag-tag__text-color-em: #c6c6c6;
+    --s-quest-slot-card__content-container-quest-heading-color: #696666;
+    --s-reward-cell-color: #999;
+    --s-reward-cell-background: #252525;
+    --s-quest-slot-card__button-button__content-color: #252525;
+    --s-game-cell__info-h3-color: #888;
+    --s-game-cell__mini-mission-reward-span-color: #a4a4a4;
+    --s-game-cell__mini-mission-progress-span-color: #fff;
+    --s-game-cell__mini-mission-progress-span-text-shaow: 0px 1px 1px black, 1px 0px 1px black;
+    --s-progress-bar--white-background: #1c1c1c;
+    --s-dashboard-section-top-earners-h3-color: #a09e9e;
+    --s-winners-top-earners__info-container-h3-color: #c6c6c6;
+    --s-winners-top-earners__info-container-p-color: #8f8f8f;
+    --s-winners-rewards-log__user-name-color: #999;
+    --s-winners-rewards-log__reward-color: #a2a0a0;
+    --s-sprizes-hero-background: #141414;
+    --s-prizes-contest-banner: #0d0d0d;
+    --s-winners-section-tabs__tab--active-color: #a4a1a1;
+    --s-winners-user-cell: #222;
+    --s-winners-user-cell__info-container-h3-color: #a2a2a2;
+    --s-winners-user-cell__info-container-p-color: #9e9e9e;
+    --s-profile-page__section--off-white: #111;
+    --s-profile-page__section__header-h3-color: #aaa;
+    --s-profile-page-balance__tickets-color: #2d2d2d;
+    --s-profile-page-balance__dollars-h3-profile-page-balance__tickets-h3-color: #afaeae;
+    --s-profile-page-balance__dollars-color: #2d2d2d;
+    --s-profile-page-squad-banner-h3-color: #d9d9d9;
+    --s-profile-page-squad-banner-color: #929292;
+    --s-squad-page__container-p-color: #949494;
+    --s-squad-offline-bonus-guide__header-span-squad-rewards-log__header-span-squad-users__header-span: #808080;
+    --s-button-large-button__content: #fff;
+    --s-squad-page__container-squad-user-cell-h3-color: #7a7a7a;
+    --s-search-results--empty-search-results--info-h3: #adadad;
+    --s--profile-page__section--azure: #2d2d2d;
+    --s-achievement-cell-h3-color: #f8f8f8;
+    --s-profile-page-highscores-h3-profile-page-withdraw-h3-color: #e2e2e2;
+    --s-profile-page-log-out-h3-color: #828282;
+    --s-card-heading-card-heading__container-h3-color: #fff;
+    --s-card-cell-countdown-background: #181818;
+    --s-card-cell-countdown-h3-color: #b4b4b4;
+}
+body {
+    background: var(--s-background);
+}
+h1 {
+    color: var(--s-h1-color);
+}
+h2 {
+    color: var(--s-h2-color);
+}
+em {
+    color: var(--s-em-color);
+}
+.tab__link--active {
+    color: var(--s-tab__link--active-color);
+}
+.layout--with-tab-bar {
+    background: var(--s-background);
+}
+.search-bar__input-field {
+    background: var(--s-background);
+}
+.search-text-input input {
+    border: none;
+    background: var(--s-background);
+}
+.nav-bar__container {
+    background: var(--s-background);
+    border-bottom: var(--s-navbar-bottom);
+}
+.user-stats-bar {
+    color: var(--s-user-status-bar-color);
+    background: var(--s-background);
+}
+.button__content {
+    color: var(--s-button__content-color);
+}
+.quest-slot-card {
+    background: var(--s-background);
+    box-shadow: var(--s-questslot-box-shadow);
+}
+.dashboard__sidebar--right {
+    background: var(--s-background);
+    border: var(--s-dashbord-sidebar-border);
+}
+.lotto-card {
+    background: var(--s-lotto-card-background);
+}
+.lotto-card__info-container > h1 {
+    color: var(--s-lotto-card__info-container-h1);
+}
+.lotto-card__info-container > h2 {
+    color: var(--s-lotto-card__info-container-h2);
+}
+.lotto-card__info-container > h4 {
+    color: var(--s-lotto-card__info-container-h4);
+}
+.tag .tag__text > em {
+    color: var(--s-tag-tag__text-color-em);
+}
+.quest-slot-card__content-container .quest-heading {
+    color: var(--s-quest-slot-card__content-container-quest-heading-color);
+}
+.reward-cell {
+    color: var(--s-reward-cell-color);
+    background: var(--s-reward-cell-background);
+}
+.quest-slot-card__button .button__content {
+    color: var(--s-quest-slot-card__button-button__content-color);
+}
+.game-cell {
+    background: var(--s-background);
+    border: var(--s-border-all);
+}
+.game-cell__info h3 {
+    color: var(--s-game-cell__info-h3-color);
+}
+.game-cell__mini-mission-reward > span {
+    color: var(--s-game-cell__mini-mission-reward-span-color);
+}
+.game-cell__mini-mission-progress > span {
+    text-shadow: var(--s-game-cell__mini-mission-progress-span-text-shaow);
+    color: var(--s-game-cell__mini-mission-progress-span-color);
+}
+.progress-bar--white {
+    background: var(--s-progress-bar--white-background);
+}
+.dashboard-section-top-earners > h3 {
+    color: var(--s-dashboard-section-top-earners-h3-color);
+}
+.winners-top-earners__info-container > h3 {
+    color: var(--s-winners-top-earners__info-container-h3-color);
+}
+.winners-top-earners__info-container > p {
+    color: var(--s-winners-top-earners__info-container-p-color);
+}
+.winners-rewards-log__user-name {
+    color: var(--s-winners-rewards-log__user-name-color);
+}
+.winners-rewards-log__reward {
+    color: var(--s-winners-rewards-log__reward-color);
+}
+.prizes-hero {
+    background: var(--s-sprizes-hero-background);
+    border: var(--s-border-all);
+}
+.prizes-contest-banner {
+    background: var(--s-prizes-contest-banner);
+    border: var(--s-border-all);
+}
+.winners-section-tabs {
+    background: var(--s-background);
+}
+.winners-section-tabs__tab--active {
+    color: var(--s-winners-section-tabs__tab--active-color);
+}
+.winners-user-cell {
+    background: var(--s-winners-user-cell);
+}
+.winners-user-cell__info-container > h3 {
+    color: var(--s-winners-user-cell__info-container-h3-color);
+}
+.winners-user-cell__info-container > p {
+    color: var(--s-winners-user-cell__info-container-p-color);
+}
+.profile-page__section--off-white {
+    background: var(--s-profile-page__section--off-white);
+}
+.profile-page__section__header h3 {
+    color: var(--s-profile-page__section__header-h3-color);
+}
+.profile-page-balance__tickets {
+    background: var(--s-profile-page-balance__tickets-color);
+}
+.profile-page-balance__dollars h3, .profile-page-balance__tickets h3 {
+    color: var(--s-profile-page-balance__dollars-h3-profile-page-balance__tickets-h3-color);
+}
+.profile-page-balance__dollars {
+    background: var(--s-profile-page-balance__dollars-color);
+}
+.profile-page__section--silk {
+    background: var(--s-background);
+    border: var(--s-border-all);
+}
+.profile-page-squad-banner > h3 {
+    color: var(--s-profile-page-squad-banner-h3-color);
+}
+.profile-page-squad-banner > p {
+    color: var(--s-profile-page-squad-banner-color);
+}
+.layout {
+    background: var(--s-background);
+}
+.squad-page__container > p {
+    color: var(--s-squad-page__container-p-color);
+}
+.squad-offline-bonus-guide__header span, .squad-rewards-log__header span, .squad-users__header span {
+    color: var(--s-squad-offline-bonus-guide__header-span-squad-rewards-log__header-span-squad-users__header-span);
+}
+.button--large .button__content {
+    color: var(--s-button-large-button__content);
+}
+.squad-page__container, .squad-user-cell h3 {
+    color: var(--s-squad-page__container-squad-user-cell-h3-color);
+}
+.search-result-box__scroll-container {
+    background: var(--s-background);
+}
+.search-results--empty, .search-results--info h3 {
+    color: var(--s-search-results--empty-search-results--info-h3);
+}
+.battle-thumbnail {
+    background: var(--s-background);
+}
+.app-promo-banner {
+    background: var(--s-background);
+    border: var(--s-border-all);
+}
+.profile-page__section--azure {
+    background: var(--s--profile-page__section--azure);
+}
+.achievement-cell > h3 {
+    color: var(--s-achievement-cell-h3-color)
+}
+.profile-page-highscores h3, .profile-page-withdraw h3 {
+    color: var(--s-profile-page-highscores-h3-profile-page-withdraw-h3-color);
+}
+.profile-page-log-out h3 {
+    color: var(--s-profile-page-log-out-h3-color);
+}
+.game-overlay-card {
+    background: var(--s-background);
+    border: var(--s-border-all);
+}
+.card-heading, .card-heading__container h3 {
+    color: var(--s-card-heading-card-heading__container-h3-color);
+}
+.card-cell-countdown {
+    background: var(--s-card-cell-countdown-background);
+}
+.card-cell-countdown > h3 {
+    color: var(--s-card-cell-countdown-h3-color);
+}
