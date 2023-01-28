@@ -57,6 +57,12 @@
     --s-card-heading-card-heading__container-h3-color: #fff;
     --s-card-cell-countdown-background: #181818;
     --s-card-cell-countdown-h3-color: #b4b4b4;
+    --s-contest-winners__other-winners-cell__user-h3-color: #818181;
+    --s-contest-winners__other-winners-cell-h4-color: #aaa;
+    --s-contest-activity-cell__button-container-button-background: #222;
+    --s-contest-participation-banner__info-container-h3-color: #797979;
+    --s-contest-participation-banner__info-container-tickets-color: #989898;
+    --s-contest-participation-banner-h3-color: #949494;
 }
 body {
     background: var(--s-background);
@@ -259,4 +265,40 @@ em {
 }
 .card-cell-countdown > h3 {
     color: var(--s-card-cell-countdown-h3-color);
+}
+.contest-page__background {
+    background: var(--s-background);
+}
+.contest-participation-banner {
+    background: var(--s-background);
+}
+.contest-quest-cell {
+    background: var(--s-background);
+    border: var(--s-border-all);
+}
+.contest-activity-cell {
+    background: var(--s-background);
+    border: var(--s-border-all);
+}
+.contest-winners__last-winner {
+    background: var(--s-background);
+    border: var(--s-border-all);
+}
+.contest-winners__other-winners-cell__user > h3 {
+    color: var(--s-contest-winners__other-winners-cell__user-h3-color);
+}
+.contest-winners__other-winners-cell > h4 {
+    color: var(--s-contest-winners__other-winners-cell-h4-color);
+}
+.contest-activity-cell__button-container .button {
+    background: var(--s-contest-activity-cell__button-container-button-background);
+}
+.contest-participation-banner__info-container > h3 {
+    color: var(--s-contest-participation-banner__info-container-h3-color);
+}
+.contest-participation-banner__info-container-tickets {
+    color: var(--s-contest-participation-banner__info-container-tickets-color);
+}
+.contest-participation-banner > h3 {
+    color: var(--s-contest-participation-banner-h3-color);
 }
